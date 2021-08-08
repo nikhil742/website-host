@@ -1,0 +1,29 @@
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    /* background-color: #333; */
+    background: rgba(0, 0, 0,0.7) url('../img/oil.jpg');
+    background-size: cover;
+    /* background-blend-mode: darken; */
+    border-radius: 21px;
+    transform: rotate(30deg);
+}
+
+.product-device::before {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    bottom: 10%;
+    left: 10px;
+    content: "";
+    background-color: rgb(255 16 16 / 10%);
+    border-radius: 5px;
+    
+}
